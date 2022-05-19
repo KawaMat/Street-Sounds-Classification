@@ -28,4 +28,4 @@ This project is an example of applying ML to sound classification problems. It i
         9. MFCC
 
 
-## Description in progress
+## Description in progress...
