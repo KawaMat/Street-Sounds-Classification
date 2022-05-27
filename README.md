@@ -28,9 +28,8 @@ https://www.kaggle.com/datasets/chrisfilo/urbansound8k
         1.6. Short Time Fourier Transform (STFT)
         1.7. Spectral centroid
         1.8. Spectral roll off
-        1.9. Spectral roll off low,
-        1.10. Spectral flux,
-        1.11. MFCC
+        1.9. Spectral flux,
+        1.10. MFCC
 
 2. Machine Learning :
 
@@ -101,3 +100,30 @@ The spectral centroid is a measure used in digital signal processing to characte
 ![image](https://user-images.githubusercontent.com/83005003/170721079-509a58d2-4193-42ea-ae54-d196087749ae.png)
 
         1.8. Spectral roll off
+        
+Roll-off is the frequency below which a certain percentage of the total spectral energy lies, such as 85% in the first example and 10% in the next one.
+
+![image](https://user-images.githubusercontent.com/83005003/170725828-3ac8168b-7ac2-478a-8f85-d1dfa025471d.png)
+
+![image](https://user-images.githubusercontent.com/83005003/170726333-8f121c5e-17aa-40fc-8b3a-3fa7b0325aad.png)
+
+        1.9. Spectral flux
+        
+Spectral flux is a measure of how quickly the power spectrum of a signal is changing, calculated by comparing the power spectrum for one frame against the power spectrum from the previous frame.[https://en.wikipedia.org/wiki/Spectral_flux]
+
+![image](https://user-images.githubusercontent.com/83005003/170726837-b5d00345-0850-4983-84e8-f33e2df5101c.png)
+
+        9. MFCC
+
+Mel Frequency Cepstral Coefficients (MFCC) are parameters widely used in speech acoustics and in the compression of audio signals. They are derived from the cepstrum of a signal represented on a scale of mel scale (mel-cepstrum)
+![image](https://user-images.githubusercontent.com/83005003/170727439-754a1f8d-8c08-4a4e-af48-61e714e3880e.png)
+
+_____________________________________________________________________________________________________________________
+
+## 2. Machine Learning
+
+        2.1. Data Normalization
+        
+        
+        
+ ## Description in progress...
