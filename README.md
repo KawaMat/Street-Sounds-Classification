@@ -16,18 +16,27 @@ This project is an example of applying ML to sound classification problems. It i
 https://www.kaggle.com/datasets/chrisfilo/urbansound8k
 
 ## Chapters:
-- Data Base
-- Feature extraction:
 
-        1. Zero crossing rate,
-        2. Change sign number,
-        3. Energy,
-        4. Root-mean-square energy (RMSE),
-        5. Spectral centroid
-        6. Spectral roll off
-        7. Spectral roll off low,
-        8. Spectral flux,
-        9. MFCC
+1. Feature extraction : 
 
+        (Features extraction_Street Sounds Classification.ipynb)
+        1.1. Zero crossing rate,
+        1.2. Change sign number,
+        1.3. Energy,
+        1.4. Root-mean-square energy (RMSE),
+        1.5. Spectral centroid
+        1.6. Spectral roll off
+        1.7. Spectral roll off low,
+        1.8. Spectral flux,
+        1.9. MFCC
 
-## Description in progress...
+2. Machine Learning :
+
+        (ML_Street_Sounds_Classification.ipynb)
+        2.1. Data Normalization
+        2.2. Decision tree
+        2.3. Random Forest Classifier
+        2.4. XGBoost
+        2.5. K-Means clustering
+        2.6. PCA
+        2.7. Simple Neural Network
