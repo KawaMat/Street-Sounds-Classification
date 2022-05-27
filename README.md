@@ -25,11 +25,12 @@ https://www.kaggle.com/datasets/chrisfilo/urbansound8k
         1.3. Energy,
         1.4. Root-mean-square energy (RMSE),
         1.5. Fast Fourier Transform
-        1.6. Spectral centroid
-        1.7. Spectral roll off
-        1.78. Spectral roll off low,
-        1.9. Spectral flux,
-        1.10. MFCC
+        1.6. Short Time Fourier Transform (STFT)
+        1.7. Spectral centroid
+        1.8. Spectral roll off
+        1.9. Spectral roll off low,
+        1.10. Spectral flux,
+        1.11. MFCC
 
 2. Machine Learning :
 
@@ -52,6 +53,8 @@ After the data was downloaded from the site, it was necessary to proceed with th
 An example of a sound signal waveform, in this case the sound of a barking dog:
 ![image](https://user-images.githubusercontent.com/83005003/170708397-576f606a-f5c1-4456-aec4-0f6e3f73094b.png)
 
+A slice of the above sample lasting 2.5 - 3.5 sec. Subsequent transformations in the workbook apply to this section of the sample:
+![image](https://user-images.githubusercontent.com/83005003/170720300-f4707842-7df1-49b0-9f7b-7d873fcf0128.png)
 
         1.1. Zero crossing rate
         
@@ -82,7 +85,19 @@ In the case of the above sample, the value was: 0.18630503305459203
 An FFT must be performed to determine subsequent features:        
 ![image](https://user-images.githubusercontent.com/83005003/170717529-16501f3c-79b1-4d1e-8542-c9304d963f9d.png)
 
-
+        
 According to Nyquist's law, in a graph in the frequency domain, values above half the sampling frequency merely mirror the waveform in the first half of the graph, so it will be truncated and stretched (just to illustrate roughly):
 ![image](https://user-images.githubusercontent.com/83005003/170718583-9b4a4ba1-b785-4121-9e24-62c2150a311a.png)
 
+        1.6. Short Time Fourier Transform (STFT)
+
+STFT shows the change of frequency in consecutive time windows:
+![image](https://user-images.githubusercontent.com/83005003/170719267-769b9ad6-ec3a-4a6d-a400-f8b90ac1e6d1.png)
+
+        1.7. Spectral centroid
+
+The spectral centroid is a measure used in digital signal processing to characterise a spectrum. It indicates where the center of mass of the spectrum is located: [https://en.wikipedia.org/wiki/Spectral_centroid]
+
+![image](https://user-images.githubusercontent.com/83005003/170721079-509a58d2-4193-42ea-ae54-d196087749ae.png)
+
+        1.8. Spectral roll off
