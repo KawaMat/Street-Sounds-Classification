@@ -40,3 +40,13 @@ https://www.kaggle.com/datasets/chrisfilo/urbansound8k
         2.5. K-Means clustering
         2.6. PCA
         2.7. Simple Neural Network
+____________________________________________________________________________________________________________
+
+
+## 1. Feature extraction
+
+After the data was downloaded from the site, it was necessary to proceed with the extraction of the useful features that would be used to teach the prediction models.
+
+
+An example of a sound signal waveform, in this case the sound of a barking dog:
+![image](https://user-images.githubusercontent.com/83005003/170708397-576f606a-f5c1-4456-aec4-0f6e3f73094b.png)
