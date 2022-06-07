@@ -125,5 +125,14 @@ ________________________________________________________________________________
         2.1. Data Normalization
         
         
-        
+Normalization is the procedure of scaling and shifting data values to accelerate the convergence of cost function values to a minimum according to the Gradient descent algorithm.    
+
+[https://towardsdatascience.com/how-to-calculate-the-mean-and-standard-deviation-normalizing-datasets-in-pytorch-704bd7d05f4c]
+![image](https://user-images.githubusercontent.com/83005003/171914100-3e185d93-f783-47a5-bab9-0e7d06c3984e.png)
+
+
+        2.2. Decision tree
+
+
+
  ## Description in progress but project is finished...
